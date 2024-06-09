@@ -3,7 +3,7 @@
 from googleapiclient.discovery import build
 
 # Set up the YouTube API service
-youtube = build('youtube', 'v3', developerKey='AIzaSyCa3wqdNV5o3wrWX_QkNEWRr1l1Xk8GjII')
+youtube = build('youtube', 'v3', developerKey='')
 
 # Example: Search for videos related to 'machine learning'
 search_response = youtube.search().list(
